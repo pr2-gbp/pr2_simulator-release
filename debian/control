@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-controller-configuration-gazebo
+Section: misc
+Priority: extra
+Maintainer: John Hsu <hsu@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/pr2_controller_configuration_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-controller-configuration-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-pr2-controller-manager, ros-indigo-pr2-gripper-action, ros-indigo-pr2-head-action, ros-indigo-single-joint-position-action
+Description: A copy of the pr2_controller_configuration package, for use in the PR2 simulator. We maintain two copies to allow for controller gains to be set differently between hardware and simulation.
