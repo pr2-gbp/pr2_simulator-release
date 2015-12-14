@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-simulator
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-simulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-pr2-controller-configuration-gazebo, ros-indigo-pr2-gazebo, ros-indigo-pr2-gazebo-plugins
+Description: The pr2_simulator package
