@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package>
-  <version>2.0.7</version>
+  <version>2.0.8</version>
   <name>pr2_gazebo_plugins</name>
   <description>
     Gazebo Plugins for various PR2-specific sensors and actuators on the robot.
   </description>
 
-  <maintainer email="hsu@osrfoundation.org">John Hsu</maintainer>
+  <maintainer email="ros-orphaned-packages@googlegroups.com">ROS Orphaned Package Maintainers</maintainer>
 
   <license>BSD</license>
 
@@ -22,7 +22,6 @@
   <build_depend>cv_bridge</build_depend>
   <build_depend>diagnostic_msgs</build_depend>
   <build_depend>diagnostic_updater</build_depend>
-  <build_depend>driver_base</build_depend>
   <build_depend>gazebo</build_depend>
   <build_depend>gazebo_msgs</build_depend>
   <build_depend>gazebo_plugins</build_depend>
@@ -68,7 +67,6 @@
   <run_depend>pr2_controller_manager</run_depend>
   <run_depend>pr2_mechanism_model</run_depend>
   <run_depend>urdf</run_depend>
-  <run_depend>driver_base</run_depend>
   <run_depend>polled_camera</run_depend>
   <run_depend>image_transport</run_depend>
   <run_depend>message_runtime</run_depend>
