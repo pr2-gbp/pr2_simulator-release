@@ -1,0 +1,13 @@
+Source: ros-kinetic-pr2-controller-configuration-gazebo
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/pr2_controller_configuration_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-controller-configuration-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gazebo7, ros-kinetic-pr2-controller-manager, ros-kinetic-pr2-gripper-action, ros-kinetic-pr2-head-action, ros-kinetic-single-joint-position-action
+Description: A copy of the pr2_controller_configuration package, for use in the PR2 simulator.
+ We maintain two copies to allow for controller gains to be set differently between hardware and simulation.
