@@ -1,0 +1,72 @@
+ros-kinetic-pr2-gazebo (2.0.10-0jessie) jessie; urgency=high
+
+  * Merge pull request (#139 <https://github.com/pr2/pr2_simulator/issues/139>)
+    remove find_package(gazebo), to solve -pthread linking errors
+  * remove find_package(gazebo), to sovle -pthread linking errors
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sat, 17 Mar 2018 15:00:00 -0000
+
+ros-kinetic-pr2-gazebo (2.0.9-0jessie) jessie; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sat, 17 Feb 2018 15:00:00 -0000
+
+ros-kinetic-pr2-gazebo (2.0.8-0jessie) jessie; urgency=high
+
+  * Merge pull request #135 <https://github.com/pr2/pr2_simulator/issues/135> from k-okada/kinetic-devel
+    fix more cmake warnings
+  * fix compile error on catkin_package() DEPENDS on 'SDF' but neither 'SDF_INCLUDE_DIRS' nor...
+  * Merge pull request #134 <https://github.com/pr2/pr2_simulator/issues/134> from furushchev/arg-kinect
+    pr2_gazebo: add arg KINECT
+  * Merge pull request #133 <https://github.com/pr2/pr2_simulator/issues/133> from k-okada/125
+    Removed repeated arg "gui", see https://github.com/PR2/pr2_simulator/pull/125
+  * Merge pull request #132 <https://github.com/pr2/pr2_simulator/issues/132> from furushchev/headless
+    [pr2_gazebo/launch/pr2_empty_world.launch] add headless/debug arguments for gazebo
+  * Merge pull request #131 <https://github.com/pr2/pr2_simulator/issues/131> from MatthewRueben/hydro-devel
+    Rename "gazebo" package to "gazebo_ros"
+  * Merge pull request #128 <https://github.com/pr2/pr2_simulator/issues/128> from k-okada/maintainer
+    change maintainer to ROS orphaned package maintainer
+  * Removed repeated arg "gui", see https://github.com/PR2/pr2_simulator/pull/125
+  * change maintainer to ROS orphaned package maintainer
+  * pr2_gazebo: add arg KINECT
+  * [pr2_gazebo/launch/pr2_empty_world.launch] add headless/debug argument for gazebo
+  * Merge pull request #118 <https://github.com/pr2/pr2_simulator/issues/118> from PR2/revert-117-indigo-devel
+    Revert "Added argument passing for Kinect2"
+  * Revert "Added argument passing for Kinect2"
+  * Merge pull request #117 <https://github.com/pr2/pr2_simulator/issues/117> from archielee/indigo-devel
+    Added argument passing for Kinect2
+  * Added argument passing for Kinect2
+  * Changed all instances of "gazebo" package to "gazebo_ros". The "gazebo" package was renamed "gazebo_ros" in hydro.
+  * Contributors: Devon Ash, Furushchev, Kei Okada, Yuki Furuta, archielee, elliot
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 13 Feb 2018 15:00:00 -0000
+
+ros-kinetic-pr2-gazebo (2.0.5-0jessie) jessie; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Thu, 12 Mar 2015 15:00:00 -0000
+
+ros-kinetic-pr2-gazebo (2.0.4-0jessie) jessie; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 10 Feb 2015 15:00:00 -0000
+
+ros-kinetic-pr2-gazebo (2.0.3-0jessie) jessie; urgency=high
+
+  * Changelogs
+  * Changelogs
+  * Bug fix thanks to vovakkk @github
+  * Contributors: TheDash
+  * Changelogs
+  * Bug fix thanks to vovakkk @github
+  * Contributors: TheDash
+  * Bug fix thanks to vovakkk @github
+  * Contributors: TheDash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 06 Oct 2014 15:00:00 -0000
+
+
