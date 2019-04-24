@@ -1,0 +1,12 @@
+Source: ros-lunar-pr2-gazebo-plugins
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), gazebo7, ros-lunar-angles, ros-lunar-catkin, ros-lunar-cv-bridge, ros-lunar-diagnostic-msgs, ros-lunar-diagnostic-updater, ros-lunar-gazebo-msgs, ros-lunar-gazebo-plugins, ros-lunar-geometry-msgs, ros-lunar-image-transport, ros-lunar-message-generation, ros-lunar-message-runtime, ros-lunar-nav-msgs, ros-lunar-orocos-kdl, ros-lunar-polled-camera, ros-lunar-pr2-controller-manager, ros-lunar-pr2-hardware-interface, ros-lunar-pr2-mechanism-model, ros-lunar-pr2-msgs, ros-lunar-roscpp, ros-lunar-rospy, ros-lunar-sensor-msgs, ros-lunar-std-msgs, ros-lunar-std-srvs, ros-lunar-tf, ros-lunar-urdf
+Homepage: http://ros.org/wiki/pr2_gazebo_plugins
+Standards-Version: 3.9.2
+
+Package: ros-lunar-pr2-gazebo-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gazebo7, ros-lunar-angles, ros-lunar-cv-bridge, ros-lunar-diagnostic-msgs, ros-lunar-diagnostic-updater, ros-lunar-gazebo-msgs, ros-lunar-gazebo-plugins, ros-lunar-gazebo-ros, ros-lunar-geometry-msgs, ros-lunar-image-transport, ros-lunar-message-generation, ros-lunar-message-runtime, ros-lunar-nav-msgs, ros-lunar-orocos-kdl, ros-lunar-polled-camera, ros-lunar-pr2-controller-manager, ros-lunar-pr2-hardware-interface, ros-lunar-pr2-mechanism-model, ros-lunar-pr2-msgs, ros-lunar-roscpp, ros-lunar-rospy, ros-lunar-sensor-msgs, ros-lunar-std-msgs, ros-lunar-tf, ros-lunar-urdf
+Description: Gazebo Plugins for various PR2-specific sensors and actuators on the robot.
