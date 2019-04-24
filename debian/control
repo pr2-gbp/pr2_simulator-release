@@ -1,0 +1,13 @@
+Source: ros-lunar-pr2-gazebo
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), gazebo7, ros-lunar-catkin, ros-lunar-gazebo-plugins, ros-lunar-pr2-gazebo-plugins, ros-lunar-pr2-machine, ros-lunar-pr2-tuckarm, ros-lunar-rostest
+Homepage: http://ros.org/wiki/pr2_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-lunar-pr2-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gazebo7, ros-lunar-diagnostic-aggregator, ros-lunar-fingertip-pressure, ros-lunar-gazebo-plugins, ros-lunar-gazebo-ros, ros-lunar-geometry-msgs, ros-lunar-image-proc, ros-lunar-joint-trajectory-action, ros-lunar-pr2-controller-configuration-gazebo, ros-lunar-pr2-controller-manager, ros-lunar-pr2-dashboard-aggregator, ros-lunar-pr2-description, ros-lunar-pr2-gazebo-plugins, ros-lunar-pr2-gripper-action, ros-lunar-pr2-head-action, ros-lunar-pr2-mechanism-controllers, ros-lunar-pr2-msgs, ros-lunar-robot-mechanism-controllers, ros-lunar-robot-pose-ekf, ros-lunar-robot-state-publisher, ros-lunar-rospy, ros-lunar-rostopic, ros-lunar-single-joint-position-action, ros-lunar-std-msgs, ros-lunar-stereo-image-proc, ros-lunar-tf2-ros, ros-lunar-topic-tools, ros-lunar-xacro
+Description: Launch scripts for simulating the PR2 in gazebo.
+ The simulation equivalent of pr2.launch is found here. pr2_fingertip_pressure_contact_translator produces the same ROS topics as fingertip_pressure package for simulated PR2.
