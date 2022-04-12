@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <version>2.0.14</version>
+  <version>2.1.0</version>
   <name>pr2_gazebo</name>
   <description>
     Launch scripts for simulating the PR2 in <a href="http://ros.org/wiki/gazebo">gazebo</a>.
@@ -32,6 +32,7 @@
   <run_depend>pr2_mechanism_controllers</run_depend>
   <run_depend>pr2_head_action</run_depend>
   <run_depend>joint_trajectory_action</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
   <run_depend>pr2_gripper_action</run_depend>
   <run_depend>single_joint_position_action</run_depend>
   <run_depend>stereo_image_proc</run_depend>
