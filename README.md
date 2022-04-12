@@ -1,3 +1,30 @@
+## pr2_simulator (noetic) - 2.1.0-1
+
+The packages in the `pr2_simulator` repository were released into the `noetic` distro by running `/usr/bin/bloom-release pr2_simulator -t noetic -r noetic` on `Tue, 12 Apr 2022 05:25:38 -0000`
+
+These packages were released:
+- `pr2_controller_configuration_gazebo`
+- `pr2_gazebo`
+- `pr2_gazebo_plugins`
+- `pr2_simulator`
+
+Version of package(s) in repository `pr2_simulator`:
+
+- upstream repository: https://github.com/pr2/pr2_simulator.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## pr2_simulator (melodic) - 2.0.14-0
 
 The packages in the `pr2_simulator` repository were released into the `melodic` distro by running `/usr/bin/bloom-release pr2_simulator --track melodic --rosdistro melodic` on `Mon, 29 Apr 2019 02:45:31 -0000`
