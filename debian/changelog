@@ -1,0 +1,101 @@
+ros-noetic-pr2-gazebo-plugins (2.1.0-1focal) focal; urgency=high
+
+  * Support Noetic (#150 <https://github.com/pr2/pr2_simulator/issues/150>) from k-okada/ga
+    use catkin_dev to use default veresion of Gazebo, see https://github.com/ros-simulation/gazebo_ros_pkgs/pull/571 for more info
+    package.xml: use liborocos-kdl for ROS_PYTHON_VERSION=3
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 11 Apr 2022 15:00:00 -0000
+
+ros-noetic-pr2-gazebo-plugins (2.0.14-1focal) focal; urgency=high
+
+  * Merge pull request #146 <https://github.com/PR2/pr2_simulator/issues/146> from k-okada/fix_stretch
+    remove gazebo depends
+  * remove gazebo depends
+    since gazebo_plugins already depend on gazebo via gazebo_dev and this solves build farm error on stretch http://build.ros.org/job/Mbin_dsv8_dSv8__pr2_gazebo_plugins__debian_stretch_arm64__binary/
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 28 Apr 2019 15:00:00 -0000
+
+ros-noetic-pr2-gazebo-plugins (2.0.13-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 23 Apr 2019 15:00:00 -0000
+
+ros-noetic-pr2-gazebo-plugins (2.0.12-1focal) focal; urgency=high
+
+  * update travis.yml (#144 <https://github.com/PR2/pr2_simulator/issues/144>)
+  * use GAZEBO_MAJOR_VERSION to switch 7(kinetic)/9(melodic)
+  * fixes for compile with gazebo 9 (#143 <https://github.com/PR2/pr2_simulator/issues/143>)
+  * Contributors: Dave Feil-Seifer, Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 07 Apr 2019 15:00:00 -0000
+
+ros-noetic-pr2-gazebo-plugins (2.0.11-1focal) focal; urgency=high
+
+  * Merge pull request #140 <https://github.com/PR2/pr2_simulator/issues/140> from furushchev/fix-power-monitor
+    fix gazebo_ros_power_monitor plugin
+  * cleanup pr2_power_monitor plugin codes
+  * fix to work gazebo_ros_power_monitor plugin
+  * Contributors: Furushchev, Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 19 Aug 2018 15:00:00 -0000
+
+ros-noetic-pr2-gazebo-plugins (2.0.10-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sat, 17 Mar 2018 15:00:00 -0000
+
+ros-noetic-pr2-gazebo-plugins (2.0.9-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sat, 17 Feb 2018 15:00:00 -0000
+
+ros-noetic-pr2-gazebo-plugins (2.0.8-1focal) focal; urgency=high
+
+  * Merge pull request #135 <https://github.com/pr2/pr2_simulator/issues/135> from k-okada/kinetic-devel
+    fix more cmake warnings
+  * fix warning on The dependency target pr2_gazebo_plugins_gencfg does not exists
+  * fix compile error on catkin_package() DEPENDS on 'SDF' but neither 'SDF_INCLUDE_DIRS' nor...
+  * Merge pull request #130 <https://github.com/pr2/pr2_simulator/issues/130> from k-okada/driver_base
+    pr2_gazebo_plugins is no longer depend on driver_base
+  * Merge pull request #128 <https://github.com/pr2/pr2_simulator/issues/128> from k-okada/maintainer
+    change maintainer to ROS orphaned package maintainer
+  * pr2_gazebo_plugins is no longer depend on driver_base
+  * change maintainer to ROS orphaned package maintainer
+  * Merge pull request #120 <https://github.com/pr2/pr2_simulator/issues/120> from v4hn/missing_gazebo_flags
+    add missing GAZEBO_CXX_FLAGS
+  * add missing GAZEBO_CXX_FLAGS
+    This is required to compile the plugins with Gazebo 7.
+    add_compile_options requires cmake 2.8.12 which is around in ubuntu since 14.04.
+  * Contributors: Devon Ash, Kei Okada, v4hn
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 13 Feb 2018 15:00:00 -0000
+
+ros-noetic-pr2-gazebo-plugins (2.0.5-1focal) focal; urgency=high
+
+  * Removed dependency on PCL for pr2_Gazebo_plugins
+  * Contributors: TheDash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Thu, 12 Mar 2015 15:00:00 -0000
+
+ros-noetic-pr2-gazebo-plugins (2.0.4-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 10 Feb 2015 15:00:00 -0000
+
+ros-noetic-pr2-gazebo-plugins (2.0.3-1focal) focal; urgency=high
+
+  * Changelogs
+  * Changelogs
+  * Contributors: TheDash
+  * Changelogs
+  * Contributors: TheDash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 06 Oct 2014 15:00:00 -0000
+
+
