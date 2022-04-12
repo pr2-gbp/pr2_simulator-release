@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-simulator
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-simulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-pr2-controller-configuration-gazebo, ros-noetic-pr2-gazebo, ros-noetic-pr2-gazebo-plugins
+Description: The pr2_simulator package
